@@ -21,11 +21,14 @@ brew cask install camtasia
 brew cask install carbon-copy-cloner
 brew cask install ccleaner
 brew cask install chromecast
+brew cask install colorschemer-studio
 brew cask install cyberduck
 brew cask install dropbox
 brew cask install dterm
+brew cask install duet
 brew cask install filezilla
 brew cask install firefoxdeveloperedition
+brew cask install flux
 brew cask install github-desktop
 brew cask install gog-galaxy
 brew cask install google-chrome
