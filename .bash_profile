@@ -67,6 +67,5 @@ fi
 
 # nvm
 if [ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ]; then
-  source $(brew --prefix nvm)/nvm.sh
-	nvm use stable
+  . $(brew --prefix nvm)/nvm.sh
 fi

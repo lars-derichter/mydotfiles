@@ -33,5 +33,3 @@ export MANPAGER='less -X';
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
-
-# Caskroom install straight into /Applications by default
