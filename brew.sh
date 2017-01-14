@@ -101,5 +101,22 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+# Install Node.js. Note: this installs `npm` too, using the recommended
+# installation method.
+brew install node
+
+# Install stuff I need
+brew install git-extras
+brew install ruby
+brew install chruby
+brew install ruby-install
+brew install python
+
+# Tidy 5
+brew install homebrew/dupes/tidy --HEAD
+
+# LibSass
+brew install libsass
+
 # Remove outdated versions from the cellar.
 brew cleanup
