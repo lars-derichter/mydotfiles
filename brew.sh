@@ -101,19 +101,20 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
-# Install Node.js. Note: this installs `npm` too, using the recommended
-# installation method.
-brew install node
+# Personal stuff (lars-derichter)
 
-# Install stuff I need
+# git stuff
 brew install git-extras
-brew install ruby
+
+# Ruby stuff
 brew install chruby
 brew install ruby-install
-brew install python
+ruby-install ruby
 
-# Tidy 5
-brew install homebrew/dupes/tidy --HEAD
+# Node stuff
+brew install nvm
+mkdir ~/.nvm
+nvm install stable
 
 # LibSass
 brew install libsass

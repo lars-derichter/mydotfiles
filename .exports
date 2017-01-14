@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Make vim the default editor.
+# Make atom the default editor.
 export EDITOR='atom';
 
 # Enable persistent REPL history for `node`.
@@ -28,3 +28,10 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# My stuff (lars-derichter)
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+
+# Caskroom install straight into /Applications by default

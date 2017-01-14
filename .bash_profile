@@ -46,3 +46,27 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# My personal stuff (lars-derichter)
+
+# Brew bash completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
+# z
+. $HOME/bin/z/z.sh
+
+# chruby
+if [ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ]; then
+	source $(brew --prefix chruby)/share/chruby/chruby.sh
+	source $(brew --prefix chruby)/share/chruby/auto.sh
+  ...
+	chruby ruby
+fi
+
+# nvm
+if [ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ]; then
+  source $(brew --prefix nvm)/nvm.sh
+	nvm use stable
+fi
