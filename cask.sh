@@ -20,7 +20,6 @@ brew cask install calibre
 brew cask install camtasia
 brew cask install carbon-copy-cloner
 brew cask install ccleaner
-brew cask install chromecast
 brew cask install colorschemer-studio
 brew cask install cyberduck
 brew cask install dropbox
