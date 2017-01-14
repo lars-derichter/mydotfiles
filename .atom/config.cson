@@ -1,0 +1,42 @@
+"*":
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+      default_beautifier: "CSScomb"
+    general:
+      _analyticsUserId: "67fd3bc6-d89d-4fb3-9aef-c932ad3fdee4"
+    handlebars:
+      beautify_on_save: true
+    html:
+      beautify_on_save: true
+    js:
+      beautify_on_save: true
+    markdown:
+      beautify_on_save: true
+    scss:
+      beautify_on_save: true
+      default_beautifier: "CSScomb"
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "atom-solarized-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontSize: 16
+    softWrap: true
+  "exception-reporting":
+    userId: "65c49abe-143f-56f6-3678-5cf4c2e626f5"
+  "git-plus":
+    general:
+      _analyticsUserId: "4bf9cbda-9afa-48e4-bfc4-f94f4d63a33d"
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+  welcome:
+    showOnStartup: false
