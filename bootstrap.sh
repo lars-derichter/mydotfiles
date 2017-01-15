@@ -15,6 +15,7 @@ function doIt() {
 		--exclude "brew.sh" \
 		--exclude "cask.sh" \
 		--exclude "gem.sh" \
+    --exclude "npm.sh" \
 		--exclude "apm.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
