@@ -40,7 +40,6 @@ brew cask install lastfm
 brew cask install livereload
 brew cask install monolingual
 brew cask install ntfs-free
-brew cask install pomodone
 brew cask install scrivener
 brew cask install techstoreclub-simple-comic
 brew cask install skype
