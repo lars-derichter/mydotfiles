@@ -40,6 +40,10 @@ brew install wget --with-iri
 brew install ringojs
 brew install narwhal
 
+# Install python
+mkdir -p /Users/larsderichter/Library/Python/2.7/lib/python/site-packages
+  echo 'import site; site.addsitedir("/usr/local/lib/python2.7/site-packages")' >> /Users/larsderichter/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install homebrew/dupes/grep
@@ -113,12 +117,15 @@ brew install git-extras
 
 # Ruby stuff
 brew install chruby
+source $(brew --prefix chruby)/share/chruby/chruby.sh
+source $(brew --prefix chruby)/share/chruby/auto.sh
 brew install ruby-install
 ruby-install ruby
 
 # Node stuff
 brew install nvm
 mkdir ~/.nvm
+export NVM_DIR="$HOME/.nvm"
 . $(brew --prefix nvm)/nvm.sh
 nvm install stable
 nvm alias default stable
