@@ -6,3 +6,7 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="lars@anansi.be"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+# gpg keys
+git config --global user.signingkey BAB7AC00
+git config --global gpg.program $(which gpg2)

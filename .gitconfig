@@ -128,7 +128,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	gpgsign = false # cannot get it to work for now
 
 [diff]
 
@@ -180,3 +180,8 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+# gpg
+[gpg]
+
+	program = "/usr/local/bin/gpg2"

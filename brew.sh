@@ -103,7 +103,9 @@ brew install zopfli
 
 # Personal stuff (lars-derichter)
 
+# gpg stuff
 brew install gpg
+brew install pinentry-mac
 
 # git stuff
 brew install git-extras

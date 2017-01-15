@@ -3,6 +3,8 @@
 cd "$(dirname "${BASH_SOURCE}")";
 
 git pull origin master;
+# Make sure that all submodules are pulled in as well
+git submodule update --init --recursive;
 
 function doIt() {
 	rsync --exclude ".git/" \

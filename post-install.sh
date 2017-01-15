@@ -18,6 +18,9 @@ sh ./brew.sh
 # Install casks
 sh ./cask.sh
 
+# Resource .bash_profile to make sure that ruby and node are found
+source ~/.bash_profile
+
 # Install ruby gems
 sh ./gem.sh
 
