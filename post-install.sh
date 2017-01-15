@@ -13,16 +13,16 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Install brews
-./brew.sh
+sh ./brew.sh
 
 # Install casks
-./cask.sh
+sh ./cask.sh
 
 # Install ruby gems
-./gem.sh
+sh ./gem.sh
 
 # Install npm packages
-./npm.sh
+sh ./npm.sh
 
 # Install Atom packages
-./apm.sh
+sh ./apm.sh

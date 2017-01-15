@@ -103,6 +103,8 @@ brew install zopfli
 
 # Personal stuff (lars-derichter)
 
+brew install gpg
+
 # git stuff
 brew install git-extras
 
