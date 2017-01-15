@@ -128,7 +128,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = false # cannot get it to work for now
+	gpgsign = true
 
 [diff]
 
@@ -184,4 +184,8 @@
 # gpg
 [gpg]
 
-	program = "/usr/local/bin/gpg2"
+	program = /usr/local/bin/gpg2
+[user]
+	name = Lars De Richter
+	email = lars@anansi.be
+	signingkey = 98AFF064
