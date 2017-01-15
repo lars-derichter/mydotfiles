@@ -61,7 +61,6 @@ fi
 if [ -n "$BASH_VERSION" ] || [ -n "$ZSH_VERSION" ]; then
 	source $(brew --prefix chruby)/share/chruby/chruby.sh
 	source $(brew --prefix chruby)/share/chruby/auto.sh
-  ...
 	chruby ruby
 fi
 
