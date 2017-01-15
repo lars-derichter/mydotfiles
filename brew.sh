@@ -119,7 +119,9 @@ ruby-install ruby
 # Node stuff
 brew install nvm
 mkdir ~/.nvm
+. $(brew --prefix nvm)/nvm.sh
 nvm install stable
+nvm alias default stable
 
 # LibSass
 brew install libsass
