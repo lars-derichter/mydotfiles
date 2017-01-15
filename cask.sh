@@ -38,6 +38,7 @@ brew cask install iterm2
 brew cask install kobo
 brew cask install lastfm
 brew cask install livereload
+brew cask install mamp
 brew cask install monolingual
 brew cask install ntfs-free
 brew cask install scrivener

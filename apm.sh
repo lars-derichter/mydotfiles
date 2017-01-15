@@ -5,6 +5,7 @@ apm install atom-beautify
 apm install atom-solarized-dark-ui
 apm install color-picker
 apm install csscomb
+apm install dash
 apm install editorconfig
 apm install emmet
 apm install file-icons
