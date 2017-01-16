@@ -180,12 +180,3 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-
-# gpg
-[gpg]
-
-	program = /usr/local/bin/gpg2
-[user]
-	name = Lars De Richter
-	email = lars@anansi.be
-	signingkey = 98AFF064
