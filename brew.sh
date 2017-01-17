@@ -133,5 +133,8 @@ nvm alias default stable
 # LibSass
 brew install libsass
 
+# Other stuff
+brew install php-cs-fixer
+
 # Remove outdated versions from the cellar.
 brew cleanup
