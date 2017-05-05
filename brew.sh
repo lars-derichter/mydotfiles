@@ -47,7 +47,7 @@ mkdir -p /Users/larsderichter/Library/Python/2.7/lib/python/site-packages
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
+# brew install homebrew/dupes/openssh # This currently gives problems with the keychain
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
