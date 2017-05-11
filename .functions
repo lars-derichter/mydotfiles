@@ -234,3 +234,26 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+function update() {
+	# Ask for the administrator password upfront.
+	sudo -v
+	# Keep-alive: update existing `sudo` time stamp until `.osx` has finished.
+	while true;
+		do sudo -n true;
+		sleep 60;
+		kill -0 "$$" || exit;
+	done 2>/dev/null &
+	sudo softwareupdate -i -a;
+	brew update;
+	brew upgrade;
+	brew cleanup;
+	npm install npm -g;
+	npm update -g;
+	sudo gem update --system;
+	sudo gem update;
+	sudo gem cleanup;
+	apm update;
+	apm clean;
+}
