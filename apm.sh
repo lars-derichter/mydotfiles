@@ -13,7 +13,9 @@ apm install git-control
 apm install git-plus
 apm install highlight-selected
 apm install javascript-snippets
+apm install language-docker
 apm install linter
+apm install linter-docker
 apm install linter-csslint
 apm install linter-htmlhint
 apm install linter-jshint
