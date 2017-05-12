@@ -107,6 +107,9 @@ brew install zopfli
 
 # Personal stuff (lars-derichter)
 
+# docker stuff
+brew install docker-completion
+
 # gpg stuff
 brew install gpg
 brew install gpg-agent
