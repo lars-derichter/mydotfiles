@@ -109,6 +109,7 @@ brew install zopfli
 
 # docker stuff
 brew install docker-completion
+brew install docker-compose-completion
 
 # gpg stuff
 brew install gpg
