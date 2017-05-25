@@ -14,7 +14,6 @@ apm install highlight-selected
 apm install language-docker
 apm install linter
 apm install linter-docker
-apm install linter-eslint
 apm install linter-htmlhint
 apm install linter-js-standard
 apm install linter-stylelint
