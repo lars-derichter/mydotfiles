@@ -28,4 +28,5 @@ apm install open-recent
 apm install pigments
 apm install standard-formatter
 apm install standardjs-snippets
+apm install stylefmt
 apm install todo-show
