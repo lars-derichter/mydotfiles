@@ -4,6 +4,7 @@
 brew tap caskroom/cask
 brew tap caskroom/versions
 brew tap caskroom/fonts
+brew tap buo/cask-upgrade
 
 # install cask
 brew install brew-cask
